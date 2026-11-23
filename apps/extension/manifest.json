@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "RedNote Studio · 人工发布助手",
+  "version": "1.0.0",
+  "description": "用户主动导入稿件资料，复制、下载并打开官方创作页面。不会自动发布。",
+  "permissions": ["storage", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "RedNote Studio"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

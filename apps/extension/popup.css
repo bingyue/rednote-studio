@@ -1,0 +1,90 @@
+body {
+  width: 340px;
+  padding: 20px;
+  margin: 0;
+  background: #fffdf6;
+  color: #526345;
+  font:
+    12px/1.8 "PingFang SC",
+    sans-serif;
+}
+header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+header b {
+  background: #ed5948;
+  color: white;
+  font-size: 25px;
+  padding: 1px 12px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+header span,
+footer {
+  font-size: 10px;
+  color: #9ba78b;
+}
+p {
+  font-size: 11px;
+  color: #93a180;
+  margin: 20px 0;
+}
+label {
+  display: block;
+  padding: 15px;
+  border: 1px dashed #dce4cf;
+  border-radius: 6px;
+}
+input {
+  display: block;
+  font-size: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+h2 {
+  font-size: 15px;
+}
+pre {
+  font: 11px/1.8 inherit;
+  white-space: pre-wrap;
+  max-height: 180px;
+  overflow: auto;
+  background: #f3f6e9;
+  padding: 12px;
+}
+.buttons {
+  display: grid;
+  gap: 8px;
+}
+button {
+  font: inherit;
+  color: white;
+  background: #ed5948;
+  border: 0;
+  padding: 9px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.secondary {
+  background: #eef3e4;
+  color: #8c9f70;
+}
+#account {
+  color: #a3af8d;
+  font-size: 11px;
+  margin-top: 15px;
+}
+#status {
+  padding: 12px 0;
+  color: #a68c5f;
+  font-size: 11px;
+}
+footer {
+  border-top: 1px solid #e6eadc;
+  padding-top: 12px;
+}

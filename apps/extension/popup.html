@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>RedNote Studio</title>
+  </head>
+  <body>
+    <header>
+      <b>R</b>
+      <div>
+        <h1>RedNote Studio</h1>
+        <span>人工发布助手</span>
+      </div>
+    </header>
+    <p>导入工作台导出的发布资料。请在官方页面核对账号与素材，最后由你提交。</p>
+    <label
+      >导入 rednote-publish.json<input
+        id="file"
+        type="file"
+        accept=".json,application/json"
+    /></label>
+    <section id="content" hidden>
+      <div id="account"></div>
+      <h2 id="title"></h2>
+      <pre id="body"></pre>
+      <div class="buttons">
+        <button id="copy-title">复制标题</button
+        ><button id="copy-body">复制正文与话题</button
+        ><button id="download">下载文案</button
+        ><button id="open">打开官方创作页 ↗</button
+        ><button id="clear" class="secondary">清除本地稿件</button>
+      </div>
+    </section>
+    <div id="status" role="status">等待你导入资料</div>
+    <footer>
+      不读取页面、Cookie 或账号密码。<br />不会自动填写页面或点击发布。
+    </footer>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
