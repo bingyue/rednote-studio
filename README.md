@@ -44,7 +44,7 @@ FDE 垂直 Agent 开源实战系列 · Python / FastAPI + React / TypeScript · 
 需要 Python 3.12+、Node.js 22+、npm、make；默认安装命令还需要 uv。推荐在 macOS / Linux 或 Windows WSL 中运行 Makefile；macOS、Linux 都可开发，Profile 助手也支持已安装 Chrome 的 Windows。
 
 ```bash
-# 下载本仓库并解压，或 git clone 后进入项目目录
+git clone https://github.com/bingyue/rednote-studio.git
 cd rednote-studio
 cp .env.example .env
 make setup
